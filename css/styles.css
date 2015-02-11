@@ -1,0 +1,51 @@
+body {
+  background-color: #006151;
+  font-family: 'Noto Serif', 'serif';
+}
+
+.container {
+  background-color: #E4E4E4;
+  margin-top: 15%;
+  width: 500px;
+  height: 550px;
+  margin-left: 0 auto;
+  padding: 15px;
+  border: solid #007B66;
+  border-radius: 10px;
+
+}
+
+h1 {
+  color: #006151;
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+}
+
+.form-group {
+  margin-left: 23px;
+}
+
+#submit-btn {
+  margin-left: 23px;
+  float:right;
+
+}
+
+#reset {
+  float:right;
+  margin-right: 150px;
+}
+
+#result {
+  display:none;
+
+}
+
+input[type=text]{
+  border-radius:10px;
+  width: 250px; /* change the input field size!!! */
+}
